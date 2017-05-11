@@ -1,0 +1,53 @@
+{% load static from staticfiles%}
+
+<!-- Comando para link statico 
+	href = "{% static "css/estilo.css"%}"
+ -->
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	
+	<title>Thamires Site</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="{% static "css/estilo.css"%}">
+	<link rel="stylesheet" type="text/css" href="{% static "css/normalize.css"%}">
+</head>
+
+<body>
+
+
+<div>
+ 
+</div>
+
+
+<div id="menu">
+		<img style="z-index:2; position: absolute; width:150px; left:100px" src="{% static "img/logo_Bca.png" %}"/>
+		<img id="img_topo" style="z-index:1;" src="{% static "img/topo.jpg" %}"/>
+		
+		<nav id = "menu-topo" style="">
+		<ul >
+			<li><a class= "" href="#">SOBRE MIM</a></li>
+			<li><a href="#">CLINICA</a></li>
+			<li><a href="#">HEALTHY LIVING</a></li>
+			<li><a href="#">ENDOCRINOLOGIA</a></li>
+			<li><a href="#">NUTROLOGIA</a></li>
+			<li><a href="#">CONTATO</a></li>
+		</ul>
+	</nav>	
+</div>
+
+<div id="imagem-banner" style="" >
+	<img style src="{% static "img/banner.jpg" %}"/>
+	<p id="texto-banner">VIVA INTENSAMENTE COM SAÚDE</p>
+</div>
+
+
+<div id="imagem-endocrinologia">
+	<img src="{% static "img/fundo_especialidades.jpg" %}" >
+	<img id="imagem-icone-endocrinologia" src="{% static "img/endocrino_icon.png"%}">
+	<p id="texto-endocrinologia">ENDOCRINOLOGIA</p>
+</div>
+
+</body>
+</html>

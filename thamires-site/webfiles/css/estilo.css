@@ -1,0 +1,86 @@
+*{
+	padding:0px;
+	margin:0px;
+	text-decoration: none;
+}
+
+a {
+	color:#fff;
+}
+
+.fonte {
+	color: red;
+}
+
+
+#menu {
+	position:relative;
+	background-color:#09f;
+	height:100px;
+}
+
+#img_topo {
+	position:relative;
+	width:100%;
+}
+
+#menu-topo {
+	position:absolute;
+	z-index:2;
+	top:40px;
+	right:150px;
+}
+
+#menu-topo ul{
+
+}
+
+#menu-topo ul li{
+	position:relative;
+	display:inline-block;
+	padding:0px 20px 0px 20px;
+}
+
+#imagem-banner img {
+	position:relative;
+	width:100%;
+}
+
+#texto-banner {
+	position:absolute;
+	width:550px;
+	text-align:right;
+	top:200px;
+	z-index:2;
+	right:170px;
+	font-size: 45px;
+	color:purple;
+	line-height:50px;
+}
+
+
+#imagem-endocrinologia{
+	position:relative;
+	width:100%;
+	
+}
+
+#imagem-icone-endocrinologia{
+	position:absolute;
+	width: 150px;
+	top:150px;
+	right: 660px;
+
+}
+
+#texto-endocrinologia{
+	position:absolute;
+	width:550px;
+	text-align:right;
+	top:300px;
+	z-index:2;
+	right:470px;
+	font-size: 45px;
+	color:purple;
+	line-height:50px;
+}
