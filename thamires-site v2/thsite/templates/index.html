@@ -1,0 +1,131 @@
+{% load static %}
+
+
+<!-- Comando para link statico 
+	href = "{% static "css/estilo.css"%}"
+ -->
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	
+	<title>Thamires Site</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="{% static "css/estilo.css"%}">
+	<link rel="stylesheet" type="text/css" href="{% static "css/normalize.css"%}">
+</head>
+
+<body>
+
+<div id="menu">
+		<img style="z-index:2; position: absolute; width:150px; left:100px" src="{% static "img/logo_Bca.png" %}"/>
+		<img id="img_topo" src="{% static "img/topo.jpg" %}"/>
+		
+		<nav id = "menu-topo" style="">
+		<ul >
+			<li><a class= "" href="#">SOBRE MIM</a></li>
+			<li><a href="#">CLINICA</a></li>
+			<li><a href="index.html#heathy-living">HEALTHY LIVING</a></li>
+			<li><a href="#">ENDOCRINOLOGIA</a></li>
+			<li><a href="#">NUTROLOGIA</a></li>
+			<li><a href="#">CONTATO</a></li>
+		</ul>
+	</nav>	
+</div>
+
+	<div id="pagina">
+
+		<div style="" >
+			<img id="imagem-banner" class="imagem-fundo" src="{% static "img/banner.jpg" %}"/>
+			<p id="texto-banner" class="">VIVA INTENSAMENTE COM SAÚDE</p>
+		</div>
+
+		<div id="heathy-living">
+			<img id="fundo-healthy" src="{% static "img/fundo_especialidades.jpg"%}" />
+			<img id="icone-healthy" src="{% static "img/healthy_icon.png"%}" />
+			<p>HEALTHY LIVING</p>
+		</div>
+
+		<div id="healthy-site" style="" >
+			<ul id="healthy-site-texto">
+				<li><p>TITULO</p><p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP EX EA COMMODO CONSEQUAT. DUIS AUTE IRURE</p></li>
+				<li><img  style="" id="" class="imagem-fundo" src="{% static "img/healthy_left.png"%}"/></li>
+			</ul>
+
+			<img  style="position:absolute;top:0px; right:0px; height:460px; width:806px;" id="imagem-banner" class="imagem-fundo" src="{% static "img/healthy_right.png"%}"/>
+
+		</div>
+
+		<div id="heathy-living">
+			<img id="fundo-healthy" src="{% static "img/fundo_especialidades.jpg"%}" />
+			<img id="icone-healthy" src="{% static "img/endocrino_icon.png"%}" />
+			<p>ENDOCRINOLOGIA</p>
+		</div>
+
+		<div id="endro-site" style="right: 0px;" >
+			<ul id="endro-site-texto" style="">
+				<li ><p>TITULO</p><p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP EX EA COMMODO CONSEQUAT. DUIS AUTE IRURE</p></li>
+				<li><img  style="width:550px; height: 150px;" id="" class="imagem-fundo" src="{% static "img/endocrino_right.png"%}"/></li>
+
+				<img  style="position:absolute;top:0px; left:550px; height:410px; width:806px;" id="imagem-banner" class="imagem-fundo" src="{% static "img/endocrino_left.png"%}"/>
+
+			</ul>
+
+			
+		</div>
+
+		<div id="heathy-living">
+			<img id="fundo-healthy" src="{% static "img/fundo_especialidades.jpg"%}" />
+			<img id="icone-healthy" src="{% static "img/endocrino_icon.png"%}" />
+			<p>ENDOCRINOLOGIA</p>
+		</div>
+
+		<div id="healthy-site" style="" >
+			<ul id="healthy-site-texto">
+				<li><p>TITULO</p><p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP EX EA COMMODO CONSEQUAT. DUIS AUTE IRURE</p></li>
+				<li><img  style="" id="" class="imagem-fundo" src="{% static "img/nutro_left.png"%}"/></li>
+			</ul>
+
+			<img  style="position:absolute;top:0px; right:0px; height:460px; width:806px;" id="imagem-banner" class="imagem-fundo" src="{% static "img/nutro_right.png"%}"/>
+
+		</div>
+
+		<div id="heathy-living">
+			<img id="fundo-healthy" src="{% static "img/fundo_depoimento.jpg"%}" />
+			<img id="icone-healthy" src="{% static "img/depoimento.png"%}" />
+			<p>DEPOIMENTOS <br />
+			LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT, SED DO</p>
+		</div>
+
+		<div id="slide-show">
+			<img src="{% static "img/slide_05.png"%}" />
+			<img src="{% static "img/slide_04.png"%}" />
+			<img src="{% static "img/slide_03.png"%}" />
+			<img src="{% static "img/slide_02.png"%}" />
+			<img src="{% static "img/slide_01.png"%}" />
+		</div>
+		<br />
+
+
+		<div id="heathy-living">
+			<img id="" style="position: relative; top: 10px; height: 200px; width: 200px; left: 577px;" src="{% static "img/logo_cor.png"%}" />
+			<p style="top: 350px; color:#a9a9a9 ;"><br>Entre em contato!<br/><br />
+			mmvbnmb</p>
+		</div>
+		<div id="formulario" style="top: 150px; left: 570px; position: relative; width: 100px;">
+			<form>
+				<input type="text" name="assunto" placeholder="Assunto"><br />
+				<input type="text" name="nome-completo" placeholder="Nome Completo"><br />
+				<textarea name="menssagem" placeholder="Menssagem"></textarea><br />
+				<input type="submit" name="" value="Enviar">
+			</form>
+		</div>
+
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		<div id="rodape">
+			<img src="{% static "img/rodape.png"%}" />
+			<div id="texto-rodape"><p style="">Todos os direitos reservados - THAMIRES ABU HANA</p></div>
+		</div>
+	</div>
+
+</body>
+</html>
